@@ -1,0 +1,48 @@
+table {
+    text-align: center;
+    margin-top: 50px;
+}
+
+table button {
+    border: 2px solid transparent !important;
+}
+
+table button:hover {
+    background: transparent !important;
+    border-color: #fff !important;
+}
+
+.mymodal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    background: rgba(0, 0, 0, 0.6);
+}
+
+.mymodal_body {
+    position: absolute;
+    background: #fff;
+    width: 500px;
+    padding: 40px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
+}
+
+.modal_close {
+    position: absolute;
+    top: -40px;
+    right: 0;
+}
+
+.modal_close i {
+    font-size: 30px;
+    color: rgb(255, 0, 0);
+    cursor: pointer;
+}
